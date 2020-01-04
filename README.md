@@ -1,18 +1,19 @@
 # julia_brot
 
-Explore the mandelbrot sets and julia sets
+Explore the mandelbrot and julia sets
 
 ## Requirements
 
 - `jdk-11.0.3+`
-- `jruby-9.2.9.0`
+- `jruby-9.2.9.0+`
 - `propane gem`
 
 Currently you can ignore `illegal reflective access` warnings
 
 ## Start
 
-Navigate to dir containing julia_brot.rb and run:
+Navigate to directory containing julia_brot.rb and run:
+
 `jruby julia_brot.rb`
 
 ## Controls
@@ -21,7 +22,7 @@ Navigate to dir containing julia_brot.rb and run:
 - Z: zoom in
 - X: zoom out
 - R: reset to standard mandelbrot
-- D: activate or deactivate double precision shaders. Higher precision is necesary to zoom farther than ~0.00005, but frame rate will drop (significantly! likely to single digits)
+- D: activate or deactivate double precision shaders. Higher precision is necessary to zoom farther than ~0.00005, but frame rate will drop (significantly! likely to single digits)
 - P: pause loop animation
 - Y: print to console the characteristics of current fractal
 
